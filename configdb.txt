@@ -1,0 +1,15 @@
+sudo service mysql start
+
+
+
+
+mysql -u root -p
+
+
+
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'GibraN@1980';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';
+FLUSH PRIVILEGES;
+
+
+exit;
